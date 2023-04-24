@@ -1,11 +1,6 @@
 pipeline {
     agent any
     stages{
-        stage('checking python version') {
-            steps {
-                bat 'python -V'
-            }
-        }
 
         stage('REPO Cloning'){
             steps {
