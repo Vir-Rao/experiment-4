@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('checking python version') {
             steps {
-                bat 'python -V'
+                bat 'php -V'
             }
         }
 
